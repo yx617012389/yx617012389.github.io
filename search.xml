@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>My New Post</title>
+      <title>Openwrt防检测固件使用教程</title>
       <link href="/2024/11/08/My-New-Post/"/>
       <url>/2024/11/08/My-New-Post/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>近日，开发者大佬 Little_34306 发布了一个新的 iOS 漏洞，它可以从 iOS 16-18.2 Beta 1系统中导出任意文件。</p><p>开发者已经利用此漏洞，制作并发布一款名为「schemeshare」的新工具，支持任意读取，但不能写入。</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/QZtZicv1Lzm5CIIgRewLj3z9AmSJt1dGJVlLOTp5r3wmH9RDdHTjYZCVkk12eiayPs9Vh40lobd86w1RY5hB42UQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=13" alt="图片"></p><p> Schemeshare 1.0 工具已经发布，可以通过 ID自签、证书 以及巨魔进行安装使用。</p><p>工具使用非常简单，安装工具后打开  Schemeshare，然后输入「文件绝对路径」 → 点击「Export」→选择「AirDrop」隔空投送到另外一台苹果设备，就能正常读取文件信息了。</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/QZtZicv1Lzm5CIIgRewLj3z9AmSJt1dGJZ3cM0BXREPogXY1JEHF4CYVYmhncEFymnghfE11cXJz0v7cthUTOrg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p>由于该工具目前只能提取 iOS 系统文件，但不支持修改，所以作用有限，比如以前要提取自带文件，需要 Filza ，现在用 Schemeshare 也可以了，主要便于查看系统信息等。</p><p>对于一些网友关心的，<strong>该漏洞对 巨魔 和 iOS越狱是否有帮助时，开发者 @MasterMike88 大佬日前明确表示，没有任何帮助</strong>。</p><p>作者示例的一些路径，感兴趣的朋友可以查看试试。</p><p>🔴var&#x2F;Keychains&#x2F;keychain-2.db</p><p><strong>字体路径：</strong></p><p>🔴&#x2F;System&#x2F;Library&#x2F;Fonts&#x2F;LanguageSupport&#x2F;PingFang.ttc</p><p><strong>时钟字体路径：</strong></p><p>🔴&#x2F;System&#x2F;Library&#x2F;Fonts&#x2F;AppFonts&#x2F;LockClock.ttf</p><p>更多大家可以自行挖掘。如果遇到提取的不是文件，而是TXT文件的话，说明提取失败，需要等待工具后续优化。</p><p>最后值得一提的是，该漏洞已经提交了，苹果官方已确定存在该漏洞。苹果在 11 月 5 日发布的 <strong>iOS 18.2 beta 2 系统已经封堵了该漏洞</strong>，所以该工具仅支持 iOS 16.0- iOS18.2 beta 1，后续的系统版本均不支持。</p><p><strong>iOS 新漏洞，iPhone分屏小窗</strong></p><p>一直以来，苹果都没有为 iOS 引入分屏小窗口功能，但同根同源 iPadOS 却支持，隔壁安卓更是早就玩烂了。</p><p>不过，<strong>有开发者大佬通过 SparseRestore 漏洞和 MobileGestalt 工具，成功在 iPhone 上用强开了 iPad 专属的分屏和小窗功能，如下图</strong>。</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_gif/QZtZicv1Lzm5CIIgRewLj3z9AmSJt1dGJuFPCpibibFpuopHVYJNHniaF0N2nrmkRADMnC9yibfLmLbGHarruIf3jUg/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p>据悉，iOS 其实也是支持分屏小窗口功能的，只不过被苹果通过技术手段给屏蔽了。而开发者大佬通过备份机制注入自定义代码，成功解锁了 iPhone 分屏功能。</p><p>目前，iPhone 分屏小窗功能仅支持 <strong>iOS 16.0 - iOS 18.0 RC &#x2F; 18.1 beta 3</strong> 系统版本，用户需要安装一个 名为 <strong>SparseBox</strong> 的工具，然后打开 “<strong>Become iPadOS</strong>”选项后，就可以在 iPhone 上体验分屏小窗功能了。</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/QZtZicv1Lzm5CIIgRewLj3z9AmSJt1dGJEwLtO1YzuOcOl1LPScSr7xRZBXtZNtfLOic9ialgkmszefoLSWZfGojQ/640?wx_fmt=jpeg&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p>除了开启分屏窗口功能外，借助 SparseBox 工具还可以实现强开 灵动岛、息屏显示、解除充电限制，甚至是 Apple intelligence 等功能。不过，该工具也可能导致 iPhone 无限重启等问题，且操作比较复杂（风险自担），不建议使用主力机尝试。</p>]]></content>
       
       
       
